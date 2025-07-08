@@ -1,0 +1,173 @@
+/* DeepL Auto Translate Admin Styles */
+
+.dat-admin-page {
+    max-width: 1200px;
+}
+
+/* Bulk Translation Styles */
+#bulk-progress {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+#progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #0073aa, #005a87);
+    transition: width 0.3s ease;
+}
+
+#progress-text {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.result-item {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid;
+}
+
+.result-success {
+    background: #d4edda;
+    border-left-color: #28a745;
+}
+
+.result-error {
+    background: #f8d7da;
+    border-left-color: #dc3545;
+}
+
+.results-summary {
+    background: #e7f3ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #0073aa;
+}
+
+/* History Styles */
+#history-filters {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#history-filters select,
+#history-filters button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+#history-table {
+    margin: 20px 0;
+}
+
+#history-table .original-text,
+#history-table .translated-text {
+    max-width: 200px;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+
+#history-pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.page-link {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 2px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #0073aa;
+}
+
+.page-link:hover {
+    background: #f0f0f0;
+}
+
+.page-link.current {
+    background: #0073aa;
+    color: white;
+    border-color: #0073aa;
+}
+
+/* Clear History Modal */
+#clear-history-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.modal-content h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.modal-content select {
+    margin: 15px 0;
+    padding: 8px;
+    width: 200px;
+}
+
+.modal-content button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.modal-content .button-primary {
+    background: #dc3545;
+    color: white;
+}
+
+.modal-content .button {
+    background: #6c757d;
+    color: white;
+}
+
+/* Cache Manager Styles */
+.cache-stats {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.cache-actions {
+    margin: 20px 0;
+    padding: 20px;
